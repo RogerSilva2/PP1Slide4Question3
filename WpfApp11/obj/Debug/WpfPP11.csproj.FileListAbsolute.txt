@@ -1,0 +1,14 @@
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\bin\Debug\WpfApp11.exe.config
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\bin\Debug\WpfApp11.exe
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\bin\Debug\WpfApp11.pdb
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\MainWindow.g.cs
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\App.g.cs
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfApp11_MarkupCompile.cache
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfApp11_MarkupCompile.lref
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\MainWindow.baml
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfApp11.g.resources
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfApp11.Properties.Resources.resources
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfPP11.csproj.GenerateResource.Cache
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfApp11.exe
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfApp11.pdb
+C:\Users\rgrv8\OneDrive\Documentos\Visual Studio 2017\Projects\WpfApp11\WpfApp11\obj\Debug\WpfPP11.csprojResolveAssemblyReference.cache

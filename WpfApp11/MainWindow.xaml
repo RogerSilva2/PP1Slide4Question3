@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfApp11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Border Margin="50,50,50,230">
+            <Grid>
+                <Label Content="Escreva o texto:" Margin="0,0,305,0" HorizontalContentAlignment="Center" VerticalAlignment="Center" Height="29"/>
+                <TextBox Name="Texto" BorderBrush="BurlyWood" BorderThickness="2" Margin="120,0,0,0"/>
+            </Grid>
+        </Border>
+        <Border Margin="50,100,50,150">
+            <Grid>
+                <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0" Height="30" Width="100" Content="Cor do texto:"/>
+                <ComboBox Name="Texto_Selecao" Margin="110,5,0,35" Height="27" SelectionChanged="Texto_Changed">
+                    <ComboBoxItem DataContext="White">Branco</ComboBoxItem>
+                    <ComboBoxItem DataContext="Red">Vermelho</ComboBoxItem>
+                    <ComboBoxItem DataContext="Orange">Laranja</ComboBoxItem>
+                    <ComboBoxItem DataContext="Yellow">Amarelo</ComboBoxItem>
+                    <ComboBoxItem DataContext="Green">Verde</ComboBoxItem>
+                    <ComboBoxItem DataContext="Blue">Azul</ComboBoxItem>
+                    <ComboBoxItem DataContext="Indigo">Índigo</ComboBoxItem>
+                    <ComboBoxItem DataContext="Violet">Violeta</ComboBoxItem>
+                    <ComboBoxItem DataContext="Black" IsSelected="True">Preto</ComboBoxItem>
+                </ComboBox>
+                <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,35,0,0" Height="30" Width="100" Content="Cor do fundo:"/>
+                <ComboBox Name="Fundo_Selecao" Margin="110,35,0,5" Height="27" SelectionChanged="Fundo_Changed">
+                    <ComboBoxItem DataContext="White" IsSelected="True">Branco</ComboBoxItem>
+                    <ComboBoxItem DataContext="Red">Vermelho</ComboBoxItem>
+                    <ComboBoxItem DataContext="Orange">Laranja</ComboBoxItem>
+                    <ComboBoxItem DataContext="Yellow">Amarelo</ComboBoxItem>
+                    <ComboBoxItem DataContext="Green">Verde</ComboBoxItem>
+                    <ComboBoxItem DataContext="Blue">Azul</ComboBoxItem>
+                    <ComboBoxItem DataContext="Indigo">Índigo</ComboBoxItem>
+                    <ComboBoxItem DataContext="Violet">Violeta</ComboBoxItem>
+                    <ComboBoxItem DataContext="Black">Preto</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+        </Border>
+        <Border BorderBrush="BurlyWood" BorderThickness="2" Margin="50,180,50,10" >
+            <Label Name="Area" Content="{Binding ElementName=Texto, Path=Text}" />
+        </Border>
+    </Grid>
+</Window>
